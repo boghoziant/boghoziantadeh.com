@@ -2,14 +2,17 @@ import ProjectCard from './ProjectCard';
 
 let project_info = [
     {
-        title: "Sorting Visualizer", 
-        img_src: "sorting_visualizer_2_1.png",
-        img_alt: "Sorting visualizer",
+        title: "Title", 
+        img_src: "img_src.png",
+        img_alt: "alt text",
         tags: [
             {name: "React", bg: ""},
             {name: "Redux", bg: "bg-gradient-to-r from-green-400 to-green-500 "},
             {name: "Typescript", bg: "bg-gradient-to-r from-red-400 to-red-500 "},
             {name: "Styled Components", bg: "bg-gradient-to-r from-pink-400 to-pink-500 "},
+            {name: "C++", bg: "bg-gradient-to-r from-purple-400 to-purple-500 "},
+            {name: "C", bg: "bg-gradient-to-r from-gray-400 to-gray-500 "},
+            {name: "Python", bg: "bg-gradient-to-r from-yellow-400 to-yellow-500 "},
 
         ],
         description: `Visualize the algorithms behind well known sorting algorithms such as 
@@ -37,7 +40,7 @@ let project_info = [
         demo_link: "https://houserjohn.com",
     },
     {
-        title: "Recreationists",
+        title: "Fish Bowl",
         img_src: "recreationists_2_1.png",
         img_alt: "Virtual UCLA",
         tags: [
@@ -48,10 +51,7 @@ let project_info = [
 
         ],
         description: `
-            With a team of four, we virtually recreated a portion of UCLA's campus. 
-            The final project allows a multiplayer experience where users can walk around
-            and explore a part of the campus at a time when we were all remote due to the pandemic.
-            I was responsible for handling collisions, all networking, and the physics.        
+        more words good make the most big thing ever most stuff good big
         `,
         src_link: "https://github.com/intro-graphics/team-project-recreationists",
         demo_link: "http://www.cs174a.com",

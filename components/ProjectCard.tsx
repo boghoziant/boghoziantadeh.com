@@ -2,7 +2,7 @@ import Tag from './Tag';
 import Image from 'next/image'
 
 const externaImageLoader = ({ src }: { src: string }) =>
-  `https://houserjohn.com/${src}`;
+  `http://localhost:3000/${src}`;
 
 interface project_card_interface {
     title: string,

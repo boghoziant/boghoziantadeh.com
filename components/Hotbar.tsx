@@ -13,10 +13,10 @@ function Hotbar() {
                 </div>
                 
                 <div className="sm:flex w-1/2 place-content-end space-x-4">
-                    <a href="https://github.com/houserjohn" className="my-auto">
+                    <a href="https://github.com/boghoziant" className="my-auto">
                         <AiFillGithub size="1.5rem" href="https://github.com/houserjohn" className=" my-auto text-gray-400 hover:text-black" />
                     </a>
-                    <a href="https://www.linkedin.com/in/houserjohn/" className="my-auto">
+                    <a href="https://www.linkedin.com/in/tadehboghozian/" className="my-auto">
                         <AiFillLinkedin size="1.5rem" className="my-auto text-gray-400 hover:text-black"/>
                     </a>
                     <a href="https://github.com/houserjohn/houserjohn.com" className="my-auto text-gray-400 cursor-pointer hover:text-black">
